@@ -19,5 +19,5 @@ spec:
         app: helloworldwebapp
     spec:
       containers:
-        - image: gcr.io/cf-spinnaker/spinnaker-for-gcp-helloworldwebapp # will be modified on deployment to point at a digest of an image
+        - image: gcr.io/cf-spinnaker/github_okundzich_helloworldwebapp # will be modified on deployment to point at a digest of an image
           name: helloworldwebapp
